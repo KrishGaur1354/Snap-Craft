@@ -40,7 +40,10 @@ python main.py
 
 Great! Now you have Snap Craft up and running on your local machine.
 
+
 ## Usage
+
+<img src = 'https://github.com/KrishGaur1354/Snap-Craft/blob/master/build/main/Layout.png'>
 
 Upon launching Snap Craft, you will be greeted with an intuitive and user-friendly interface. Follow the instructions below to utilize the various features:
 
@@ -52,7 +55,7 @@ Upon launching Snap Craft, you will be greeted with an intuitive and user-friend
 
 4. Rotate: To rotate the image, click on the "Rotate" tool and select the desired rotation angle. You can rotate the image clockwise or counterclockwise.
 
-5. Filters: Snap Craft provides a variety of filters to enhance your images. Click on the "Filters" menu and select the desired filter. The image will be updated in real-time to display the applied filter.
+5. Effects: Snap Craft provides a variety of filters to enhance your images. Click on the "Effects" menu and select the desired filter. The image will be updated in real-time to display the applied filter.
 
 6. Save and Export: Once you are satisfied with the edits, click on the "File" menu and select "Save" or "Save As" to save the changes to the original file or create a new file with the modifications.
 
@@ -65,7 +68,7 @@ Snap Craft offers the following key features:
 - **Crop**: Select and retain a specific portion of the image while removing the rest.
 - **Zoom**: Adjust the level of zoom to focus on specific areas of the image.
 - **Rotate**: Rotate the image clockwise or counterclockwise at desired angles.
-- **Filters**: Apply a variety of filters to enhance the appearance of the image.
+- **Effects**: Apply a variety of filters to enhance the appearance of the image.
 - **... and many more**: Explore Snap Craft to discover additional features and functionalities.
 
 ## Contributing
