@@ -80,6 +80,5 @@ Contributions are welcome and appreciated! If you would like to contribute to Sn
 
 ## License
 
-Snap Craft is released under the [MIT License](https://github.com/your-username/snap-craft/blob
-
-/main/LICENSE). You are free to use, modify, and distribute this software as per the terms of the license.
+Snap Craft is released under the [MIT License](https://github.com/KrishGaur1354/Snap-Craft/
+LICENSE). You are free to use, modify, and distribute this software as per the terms of the license.
