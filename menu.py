@@ -1,7 +1,7 @@
 import customtkinter as ctk
 from panels import *
 class Menu(ctk.CTkTabview):
-    def __init__(self, parent, pos_vars, color_vars, effect_vars):
+    def __init__(self, parent, pos_vars, color_vars, effect_vars, export_image):
         super().__init__(master=parent)
         self.grid(row = 0, column = 0 , sticky = 'nsew', pady =10 ,padx = 10)
 
@@ -13,7 +13,7 @@ class Menu(ctk.CTkTabview):
         PositionFrame(self.tab('Position'), pos_vars)
         ColorFrame(self.tab('Color'), color_vars)
         EffectFrame(self.tab('Effect'), effect_vars)
-        # ExportFrame(self.tab('Export'), export_image)
+        ExportFrame(self.tab('Export'), export_image)
 
 class PositionFrame(ctk.CTkFrame):
     def __init__(self, parent, pos_vars):
@@ -55,16 +55,16 @@ class EffectFrame(ctk.CTkFrame):
                      (effect_vars['effect'], EFFECT_OPTIONS[0])
                      )
 
-# class ExportFrame(ctk.CTkFrame):
-#     def __init__(self, parent, export_image):
-#         super().__init__(master=parent, fg_color='transparent')
-#         self.pack(expand = True, fill = 'both')
-#
-#         self.name_string = ctk.StringVar()
-#         self.file_string = ctk.StringVar(value='jpg')
-#         self.path_string = ctk.StringVar()
-#
-#         FileNamePanel(self, self.name_string, self.file_string)
-#         FilePathPanel(self, self.path_string)
-#         SaveButton(self, export_image, self.name_string, self.file_string)
+class ExportFrame(ctk.CTkFrame):
+    def __init__(self, parent, export_image):
+        super().__init__(master=parent, fg_color='transparent')
+        self.pack(expand = True, fill = 'both')
+
+        self.name_string = ctk.StringVar()
+        self.file_string = ctk.StringVar(value='jpg')
+        self.path_string = ctk.StringVar()
+
+        FileNamePanel(self, self.name_string, self.file_string)
+        FilePathPanel(self, self.path_string)
+        SaveButton(self, export_image, self.name_string, self.file_string, self.path_string)
 
